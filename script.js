@@ -1,15 +1,15 @@
 // Menu data structure
 var menuLinks = [
-    {text: 'about', href: '/about'},
-    {text: 'catalog', href: '#', subLinks: [
-      {text: 'all', href: '/catalog/all'},
-      {text: 'top selling', href: '/catalog/top'},
-      {text: 'search', href: '/catalog/search'},
+    {text: 'Home', href: '#'},
+    {text: 'Baby Animals', href: '#', subLinks: [
+      {text: 'Bunnies', href: '#'},
+      {text: 'Kitties', href: '#'},
+      {text: 'Baby Lambs', href: '#'},
     ]},
-    {text: 'orders', href: '#' , subLinks: [
-      {text: 'new', href: '/orders/new'},
-      {text: 'pending', href: '/orders/pending'},
-      {text: 'history', href: '/orders/history'},
+    {text: 'Dragons', href: '#' , subLinks: [
+      {text: 'Red Dragons', href: '#'},
+      {text: 'Green Dragons', href: '#'},
+      {text: 'Black Dragons', href: '#'},
     ]},
     {text: 'account', href: '#', subLinks: [
       {text: 'profile', href: '/account/profile'},

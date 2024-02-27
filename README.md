@@ -13,3 +13,8 @@ https://www.motionelements.com/search/gif?s=
 Color palette found on Coolors.
 https://coolors.co/palette/ffd6ff-e7c6ff-c8b6ff-b8c0ff-bbd0ff
 
+Photo by Kat Smith: https://www.pexels.com/photo/white-lamb-wearing-blue-shirt-568022/
+
+Photo by Pixabay: https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/
+
+Photo by Frank Cone: https://www.pexels.com/photo/brown-rabbit-2439784/
