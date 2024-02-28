@@ -126,3 +126,9 @@
     border: #636787;
 
   } 
+
+  p {
+    color:  #636787;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }

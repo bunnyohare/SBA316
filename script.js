@@ -132,8 +132,13 @@ kittens.forEach((kittenSize, i) => {
 
   const babyAnimalProzacDiv = document.getElementById("baby-animal-prozac");
   const babyAnimalSection = document.createElement('section');
-  babyAnimalSection.innerHTML = `<img src="images/pexels-frank-cone-2439784-400w.jpg">`;
+  babyAnimalSection.innerHTML = `<p>Click on the rabbit to see a lamb!</p<br /><img src="images/pexels-frank-cone-2439784-400w.jpg">`;
+  babyAnimalSection.id = `cutie`;
   babyAnimalProzacDiv.appendChild(babyAnimalSection);
+
+  babyAnimalSection.onclick = function() {
+    babyAnimalSection.innerHTML = `<img src="images/pexels-kat-smith-568022-400w.jpg">`;
+};
     // babyAnimalSection.innerHTML = `<img src="images/pexels-kat-smith-568022-400w.jpg">`;
     // babyAnimalSection.innerHTML = `<img src="images/pexels-pixabay-45201-400w.jpg">`;
 
