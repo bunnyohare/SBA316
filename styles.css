@@ -104,3 +104,17 @@
     left: calc(50% - 125px);
   }
   
+  #kittens {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid pink;
+  }
+
+  section {
+    width: 8rem;
+    height: 8rem;
+    border: #636787;
+
+  } 
