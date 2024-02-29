@@ -126,7 +126,7 @@ kittens.push("60", "70", "80", "90", "100", "110", "120", "130");
 const kittenDiv = document.getElementById("kittens");
 kittens.forEach((kittenSize, i) => {
   const animalSection = document.createElement("section");
-  animalSection.innerHTML = `<img src="https://placekitten.com/${kittenSize}/${kittenSize}">`;
+  animalSection.innerHTML = `<img src="https://placekitten.com/${kittenSize}/${kittenSize}" alt="Kitten">`;
   animalSection.style.order = i;
   animalSection.id = `meow${i}`;
   kittenDiv.append(animalSection);
@@ -134,12 +134,12 @@ kittens.forEach((kittenSize, i) => {
 
 const babyAnimalProzacDiv = document.getElementById("baby-animal-prozac");
 const babyAnimalSection = document.createElement("section");
-babyAnimalSection.innerHTML = `<p>Click on the rabbit to see a lamb!</p<br /><img src="images/pexels-frank-cone-2439784-400w.jpg">`;
+babyAnimalSection.innerHTML = `<p>Click on the rabbit to see a lamb!</p<br /><img src="images/pexels-frank-cone-2439784-400w.jpg" alt="Rabbit">`;
 babyAnimalSection.id = `cutie`;
 babyAnimalProzacDiv.appendChild(babyAnimalSection);
 
 babyAnimalSection.onclick = function () {
-  babyAnimalSection.innerHTML = `<img src="images/pexels-kat-smith-568022-400w.jpg">`;
+  babyAnimalSection.innerHTML = `<img src="images/pexels-kat-smith-568022-400w.jpg" alt="Lamb">`;
 };
 // babyAnimalSection.innerHTML = `<img src="images/pexels-kat-smith-568022-400w.jpg">`;
 // babyAnimalSection.innerHTML = `<img src="images/pexels-pixabay-45201-400w.jpg">`;
