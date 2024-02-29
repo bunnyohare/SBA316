@@ -21,3 +21,9 @@ Photo by Frank Cone: https://www.pexels.com/photo/brown-rabbit-2439784/
 
 Multisized kitten iteration.
 https://placekitten.com/
+
+I did not have the time/mental capacity to complete these tasks:
+
+- Use the DocumentFragment interface or HTML templating with the cloneNode method to create templated content. 
+
+- Use at least two Browser Object Model (BOM) properties or methods.
